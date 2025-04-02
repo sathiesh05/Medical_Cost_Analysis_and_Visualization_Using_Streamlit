@@ -1,0 +1,101 @@
+ID,Name,Profession,Age,Gender,Medical_Cost,City,Year,Yearly_Revenue,Disease_Name
+1,James Wilson,Engineer,42,Male,1250.75,Boston,2023,85000,Hypertension
+2,Emily Parker,Teacher,38,Female,3456.20,Chicago,2023,52000,Asthma
+3,Robert Johnson,Doctor,55,Male,875.30,New York,2023,175000,Diabetes Type 2
+4,Sarah Miller,Accountant,31,Female,4325.90,Los Angeles,2023,63000,Migraine
+5,Michael Brown,Lawyer,47,Male,6789.45,Seattle,2023,132000,Coronary Artery Disease
+6,Jessica Taylor,Nurse,29,Female,1230.60,Denver,2023,58000,Anxiety Disorder
+7,David Anderson,Software Developer,36,Male,2198.75,Austin,2023,110000,None
+8,Jennifer White,Marketing Manager,44,Female,5432.10,Portland,2023,95000,Hypothyroidism
+9,Christopher Thompson,Construction Worker,50,Male,7820.35,Phoenix,2023,48000,Arthritis
+10,Lisa Martinez,Pharmacist,33,Female,945.25,Miami,2023,88000,Allergies
+11,Thomas Clark,Electrician,41,Male,3276.80,Atlanta,2023,62000,Lower Back Pain
+12,Michelle Lewis,HR Manager,37,Female,2187.40,Dallas,2023,78000,Fibromyalgia
+13,Daniel Walker,Sales Representative,45,Male,1560.25,San Francisco,2023,72000,High Cholesterol
+14,Amanda Hall,Graphic Designer,28,Female,3798.60,Minneapolis,2023,56000,Depression
+15,John Rodriguez,Chef,39,Male,2345.70,Philadelphia,2023,49000,Gastritis
+16,Karen Young,Dental Hygienist,34,Female,1890.30,Houston,2023,61000,None
+17,Joseph Allen,Architect,51,Male,5632.50,Detroit,2023,98000,Gout
+18,Stephanie Green,Financial Analyst,32,Female,2760.40,San Diego,2023,83000,Irritable Bowel Syndrome
+19,Richard Adams,Police Officer,48,Male,4125.65,St. Louis,2023,67000,Sleep Apnea
+20,Rebecca King,Psychologist,40,Female,1456.30,Nashville,2023,92000,Eczema
+21,Charles Baker,Mechanical Engineer,53,Male,8752.90,Columbus,2022,105000,Chronic Obstructive Pulmonary Disease
+22,Susan Wright,Elementary Teacher,35,Female,2310.75,Indianapolis,2022,54000,Urinary Tract Infection
+23,Kevin Turner,Carpenter,46,Male,3870.40,Pittsburgh,2022,51000,Tendonitis
+24,Laura Harris,Nurse Practitioner,31,Female,1925.60,Baltimore,2022,87000,None
+25,Matthew Scott,IT Manager,49,Male,6540.30,Cleveland,2022,114000,Diabetes Type 1
+26,Deborah Mitchell,Social Worker,36,Female,2875.45,Kansas City,2022,59000,Generalized Anxiety Disorder
+27,Paul Nelson,Plumber,43,Male,4230.80,Orlando,2022,57000,Herniated Disc
+28,Kimberly Carter,Marketing Coordinator,29,Female,1640.25,Sacramento,2022,62000,Psoriasis
+29,Steven Morgan,Civil Engineer,52,Male,7320.15,Tucson,2022,96000,Atrial Fibrillation
+30,Nancy Robinson,Accountant,38,Female,2910.70,Oklahoma City,2022,64000,Endometriosis
+31,Edward Phillips,Business Analyst,44,Male,3560.90,Charlotte,2022,82000,Kidney Stones
+32,Carol Evans,Veterinarian,33,Female,1890.35,Memphis,2022,79000,None
+33,Mark Foster,Attorney,50,Male,6895.25,Louisville,2022,125000,Chronic Sinusitis
+34,Donna Reed,Physical Therapist,37,Female,2635.80,Raleigh,2022,71000,Rheumatoid Arthritis
+35,William Cooper,Restaurant Manager,42,Male,3215.40,Salt Lake City,2022,56000,Acid Reflux
+36,Elizabeth Peterson,Elementary Teacher,30,Female,1745.65,Richmond,2022,53000,Seasonal Allergies
+37,Andrew Collins,Electrician,48,Male,5410.30,Providence,2022,61000,Osteoarthritis
+38,Cynthia Edwards,Retail Manager,35,Female,2980.75,Las Vegas,2022,49000,Polycystic Ovary Syndrome
+39,George Stewart,Mechanical Engineer,54,Male,8965.50,Milwaukee,2022,103000,Coronary Heart Disease
+40,Ruth Turner,Dental Assistant,32,Female,1520.40,Albuquerque,2022,47000,None
+41,Brian Murphy,Software Engineer,41,Male,3745.60,Jacksonville,2021,108000,Asthma
+42,Patricia Cook,Administrative Assistant,38,Female,2310.25,Hartford,2021,43000,Migraine
+43,Kenneth Price,Construction Manager,47,Male,6120.35,Birmingham,2021,73000,Lower Back Pain
+44,Helen Rivera,Nurse,34,Female,1980.70,Cincinnati,2021,57000,Depression
+45,Ronald Bell,Sales Manager,51,Male,4825.90,Buffalo,2021,89000,Hypertension
+46,Barbara Coleman,Teacher,36,Female,2740.30,Omaha,2021,54000,Fibromyalgia
+47,Jeffrey Perry,Accountant,43,Male,3560.80,Rochester,2021,68000,Gastroesophageal Reflux Disease
+48,Kathleen Barnes,Financial Advisor,31,Female,1630.45,Tulsa,2021,76000,None
+49,Gary Jenkins,Civil Engineer,49,Male,5975.25,Grand Rapids,2021,95000,Chronic Bronchitis
+50,Cheryl Powell,Human Resources Manager,37,Female,2840.60,Fresno,2021,81000,Hypothyroidism
+51,Dennis Butler,Electrician,45,Male,4120.35,Honolulu,2021,59000,Diabetes Type 2
+52,Angela Simmons,Graphic Designer,30,Female,1890.75,Boise,2021,55000,Anxiety Disorder
+53,Jerry Hayes,Construction Worker,52,Male,7230.40,Des Moines,2021,48000,Osteoporosis
+54,Virginia Kelly,Elementary Teacher,38,Female,2650.30,Little Rock,2021,52000,Irritable Bowel Syndrome
+55,Roger Sanchez,IT Support Specialist,40,Male,3420.85,Madison,2021,67000,Sleep Apnea
+56,Brenda Price,Pharmacist,33,Female,1765.20,Worcester,2021,86000,None
+57,Scott Ross,Mechanical Engineer,46,Male,5840.75,Norfolk,2020,97000,Crohn's Disease
+58,Pamela Wood,Marketing Manager,35,Female,2930.45,Durham,2020,78000,Eczema
+59,Larry Henderson,Attorney,53,Male,8125.60,Spokane,2020,128000,High Cholesterol
+60,Debra Barnes,Social Worker,39,Female,2540.30,Reno,2020,56000,Endometriosis
+61,Gregory Brooks,Software Developer,44,Male,3875.90,Lexington,2020,105000,Hypertension
+62,Sharon Russell,Nurse Practitioner,32,Female,1940.75,Anchorage,2020,83000,None
+63,Joshua Long,Architect,48,Male,6320.40,Fort Wayne,2020,91000,Arthritis
+64,Donna Howard,Teacher,37,Female,2780.65,Bakersfield,2020,53000,Fibromyalgia
+65,Dennis Gray,Sales Representative,51,Male,4890.25,Jersey City,2020,71000,Coronary Artery Disease
+66,Judith Watson,Accountant,34,Female,2175.30,Chula Vista,2020,66000,Migraines
+67,Frank Bennett,Plumber,42,Male,3640.80,St. Petersburg,2020,58000,Gastritis
+68,Carolyn Murphy,Dental Hygienist,29,Female,1590.45,Newark,2020,62000,None
+69,Raymond Wright,Business Analyst,50,Male,7150.25,Lincoln,2020,79000,Chronic Obstructive Pulmonary Disease
+70,Teresa Evans,Physical Therapist,36,Female,2860.70,Fort Worth,2020,75000,Rheumatoid Arthritis
+71,Samuel Turner,Restaurant Manager,47,Male,4230.35,Madison,2019,54000,Gout
+72,Alice Rodriguez,Elementary Teacher,31,Female,1845.90,Greensboro,2019,51000,Polycystic Ovary Syndrome
+73,Wayne Mitchell,Civil Engineer,54,Male,8760.25,Scottsdale,2019,99000,Atrial Fibrillation
+74,Louise Campbell,Human Resources Specialist,38,Female,2670.40,Buffalo,2019,64000,None
+75,Howard Parker,IT Manager,45,Male,5320.75,Irvine,2019,112000,Diabetes Type 1
+76,Julie Coleman,Marketing Coordinator,32,Female,1970.30,Irving,2019,61000,Depression
+77,Martin Reed,Construction Worker,49,Male,6830.45,Chandler,2019,49000,Herniated Disc
+78,Beverly Sanders,Accountant,35,Female,2540.80,Laredo,2019,67000,Hypothyroidism
+79,Arthur Brooks,Lawyer,52,Male,7890.35,Durham,2019,122000,Chronic Sinusitis
+80,Jean Phillips,Nurse,30,Female,1780.60,Jersey City,2019,56000,None
+81,Lawrence Watson,Software Engineer,43,Male,4120.75,St. Paul,2018,106000,Kidney Stones
+82,Theresa Cooper,Teacher,37,Female,2830.40,Henderson,2018,53000,Asthma
+83,Joe Howard,Sales Manager,51,Male,6540.25,Glendale,2018,87000,Osteoarthritis
+84,Kathleen Richardson,Financial Analyst,33,Female,2140.60,Winston-Salem,2018,81000,Allergies
+85,Keith Murphy,Mechanical Engineer,46,Male,5230.35,Garland,2018,94000,Acid Reflux
+86,Ann Hayes,Administrative Assistant,31,Female,1620.75,Hialeah,2018,44000,None
+87,Harold Russell,Electrician,50,Male,6950.40,Chesapeake,2018,60000,Sleep Apnea
+88,Joyce Hughes,Dental Assistant,36,Female,2370.85,North Las Vegas,2018,46000,Irritable Bowel Syndrome
+89,Carl Barnes,Construction Manager,48,Male,4830.25,Fremont,2018,72000,High Cholesterol
+90,Lori Kelly,Pharmacist,34,Female,2090.70,Gilbert,2018,85000,Migraine
+91,Roger Butler,Business Analyst,44,Male,3760.35,Lubbock,2017,80000,Hypertension
+92,Martha Wood,Elementary Teacher,39,Female,2920.80,Irving,2017,54000,Depression
+93,Gerald Collins,Civil Engineer,53,Male,7420.45,Glendale,2017,97000,Coronary Heart Disease
+94,Catherine Powell,Marketing Manager,35,Female,2540.30,Jersey City,2017,76000,None
+95,Wayne Perry,Attorney,49,Male,6320.75,Scottsdale,2017,126000,Chronic Bronchitis
+96,Shirley Edwards,Nurse Practitioner,32,Female,1960.40,Winston-Salem,2017,82000,Anxiety Disorder
+97,Johnny Stewart,Software Developer,45,Male,4750.25,North Las Vegas,2017,104000,Diabetes Type 2
+98,Doris Murphy,Social Worker,37,Female,2830.60,Fremont,2017,57000,Fibromyalgia
+99,Billy Jenkins,Restaurant Manager,51,Male,5960.35,Gilbert,2017,53000,Arthritis
+100,Judy Foster,Accountant,33,Female,2140.70,Lubbock,2017,65000,None

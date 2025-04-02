@@ -17,7 +17,7 @@ def explore_data(loaded_dataset):
 # Function to visualize yearly medical cost
 def visualize_yearly_medical_cost(loaded_dataset):
     if loaded_dataset is not None:
-        yearly_costs = loaded_dataset.groupby('Year')['Medical Cost'].sum()
+        yearly_costs = loaded_dataset.groupby('Year')['Medical_Cost'].sum()
         st.subheader("Year-wise Medical Cost")
         fig, ax = plt.subplots()
         bar_chart = ax.bar(yearly_costs.index, yearly_costs.values, color='skyblue')
@@ -29,7 +29,7 @@ def visualize_yearly_medical_cost(loaded_dataset):
 # Function to visualize age-wise medical cost
 def visualize_age_wise_medical_cost(loaded_dataset):
     if loaded_dataset is not None:
-        age_wise_costs = loaded_dataset.groupby('Age')['Medical Cost'].sum()
+        age_wise_costs = loaded_dataset.groupby('Age')['Medical_Cost'].sum()
         st.subheader("Age-wise Medical Cost")
         fig, ax = plt.subplots()
         bar_chart = ax.bar(age_wise_costs.index, age_wise_costs.values, color='skyblue')
@@ -41,7 +41,7 @@ def visualize_age_wise_medical_cost(loaded_dataset):
 # Function to visualize gender-wise medical cost
 def visualize_gender_wise_medical_cost(loaded_dataset):
     if loaded_dataset is not None:
-        gender_wise_costs = loaded_dataset.groupby('Gender')['Medical Cost'].sum()
+        gender_wise_costs = loaded_dataset.groupby('Gender')['Medical_Cost'].sum()
         st.subheader("Gender-wise Medical Cost")
         fig, ax = plt.subplots()
         bar_chart = ax.bar(gender_wise_costs.index, gender_wise_costs.values, color='skyblue')
@@ -53,7 +53,7 @@ def visualize_gender_wise_medical_cost(loaded_dataset):
 # Function to visualize disease-wise medical cost
 def visualize_disease_wise_medical_cost(loaded_dataset):
     if loaded_dataset is not None:
-        disease_wise_costs = loaded_dataset.groupby('Disease Name')['Medical Cost'].sum()
+        disease_wise_costs = loaded_dataset.groupby('Disease_Name')['Medical_Cost'].sum()
         st.subheader("Disease-wise Medical Cost")
         fig, ax = plt.subplots()
         bar_chart = ax.barh(disease_wise_costs.index, disease_wise_costs.values, color='skyblue')
@@ -69,16 +69,16 @@ def visualize_yearly_disease_distribution(year, loaded_dataset):
         if yearly_data.empty:
             st.info(f"No records available for year {year}.")
             return
-        yearly_grouped = yearly_data.groupby('Disease Name')['Medical Cost'].sum().reset_index()
+        yearly_grouped = yearly_data.groupby('Disease_Name')['Medical_Cost'].sum().reset_index()
         st.subheader(f'Disease-wise Medical Cost for Year {year}')
         fig, ax = plt.subplots(figsize=(15, 15))
-        bar_chart = ax.barh(yearly_grouped['Disease Name'], yearly_grouped['Medical Cost'], color='skyblue')
+        bar_chart = ax.barh(yearly_grouped['Disease_Name'], yearly_grouped['Medical_Cost'], color='skyblue')
         # Annotate the bar with the highest total cost
-        max_cost_index = yearly_grouped['Medical Cost'].idxmax()
-        max_cost_disease = yearly_grouped.loc[max_cost_index, 'Disease Name']
-        max_cost = yearly_grouped.loc[max_cost_index, 'Medical Cost']
+        max_cost_index = yearly_grouped['Medical_Cost'].idxmax()
+        max_cost_disease = yearly_grouped.loc[max_cost_index, 'Disease_Name']
+        max_cost = yearly_grouped.loc[max_cost_index, 'Medical_Cost']
         st.write(f"Highest Total Cost Disease for Year {year}: {max_cost_disease} (${max_cost:.2f})")
-        for bar, cost in zip(bar_chart, yearly_grouped['Medical Cost']):
+        for bar, cost in zip(bar_chart, yearly_grouped['Medical_Cost']):
             ax.text(cost, bar.get_y() + bar.get_height() / 2, f"${cost:.2f}", va='center', ha='left', color='black', fontsize=20)
         ax.set_xlabel('Medical Cost', fontsize=14)
         ax.set_ylabel('Disease', fontsize=14)  # Increase font size here
@@ -89,7 +89,7 @@ def visualize_yearly_disease_distribution(year, loaded_dataset):
 def find_threshold(loaded_dataset):
     if loaded_dataset is not None:
         st.subheader("Threshold for Every Year")
-        yearly_thresholds = loaded_dataset.groupby('Year')['Medical Cost'].quantile(0.75)
+        yearly_thresholds = loaded_dataset.groupby('Year')['Medical_Cost'].quantile(0.75)
         fig, ax = plt.subplots()
         ax.plot(yearly_thresholds.index, yearly_thresholds.values, marker='o', color='red', linestyle='solid', linewidth=2, markersize=10)
         ax.fill_between(yearly_thresholds.index, yearly_thresholds.values, alpha=0.3)
